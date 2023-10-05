@@ -122,6 +122,7 @@ tour.html
     background-color: darkgray;
 }
 
+
 a.card-link{
     margin-left:8rem;
     text-decoration: none;
@@ -133,11 +134,10 @@ a.card-link{
 
  videos.html
 
- .ContainerVideos{
-    display: flex;
-    flex-direction: row;
-        
-}
+.video{
+    width:100vh,
+} 
+
 
 
 
