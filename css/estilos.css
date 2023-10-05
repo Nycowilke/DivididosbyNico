@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: limegreen;
+}
+
+index.html
+.container-fluid {
+    background-color:limegreen;
+    height: 15vh;}
+    
+    .nav-link{
+    color: white;
+}
+    
+ 
+    
+main 
+.container{
+    display: flex;
+    background-color: limegreen;
+}  
+
+h1{
+    font-family: Permanent Marker;
+    color: white;
+    margin-left: 160px;
+}
+
+.card{
+    background-color: limegreen;
+    color: white;
+} 
+.IconosFooter{
+    color:white;
+    margin: 10px;
+}  
+
+
+
+    
+    
+
+contacto.html
+
+    
+
+.formulario{
+    margin-left: 30px;
+}
+.label{
+    color: white;
+    margin-top: 15px;  
+    margin-left: 250px;
+}
+ .ImagenFormulario{
+    width: 50%;
+}
+.BotonEnviar{
+    background-color: green;
+    border-radius: 5px;
+    border:2px solid black;
+    color: white;
+}
+.BotonLimpiar{
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: white;
+}
+ discos.html 
+
+.disco{
+    display: flex;
+}
+
+h2{
+    color: white;
+    margin-left: 35rem;
+    
+ }
+ .ImagenDiscos section {
+    display: flex;
+    margin-left: 17rem;
+    width: 800px;
+    height: 400px;
+ }
+ section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .5s ease;
+ }
+ section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+ }
+ 
+ videos.html
+
+ .ContainerVideos{
+    display: flex;
+        
+}
+
+
+
+
+
+
+
+
+
+    
+     
+   
+
+
+
+
+
