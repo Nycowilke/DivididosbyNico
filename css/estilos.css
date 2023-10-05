@@ -42,7 +42,7 @@ main
 
 h1{
     font-family: Permanent Marker;
-    color: white;
+    color: black;
     margin-left: 160px;
 }
 
@@ -116,6 +116,21 @@ h2{
  }
 
  
+tour.html
+
+.list-group-item{
+    background-color: darkgray;
+}
+
+a.card-link{
+    margin-left:8rem;
+    text-decoration: none;
+    color:black;
+    font-family: Gloria Hallelujah;
+    font-size: 1.5rem
+}
+
+
  videos.html
 
  .ContainerVideos{
@@ -123,9 +138,7 @@ h2{
     flex-direction: row;
         
 }
-.video{
-    justify-content: space-around;
-}
+
 
 
 
