@@ -1,7 +1,17 @@
+@font-face {
+    font-family: Permanent Marker;
+    src: url(../assets/fonts/PermanentMarker-Regular.ttf);
+    font-family: Walter Turncoat;
+    src: url(../assets/fonts/WalterTurncoat-Regular.ttf);
+    font-family: Gloria Hallelujah;
+    src: url(../assets/fonts/GloriaHallelujah-Regular.ttf);
+    }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     background-color: limegreen;
@@ -9,12 +19,18 @@ body{
 
 index.html
 .container-fluid {
-    background-color:limegreen;
-    height: 15vh;}
+    height: 15vh;
+    background-color: limegreen;
+}
+header .nav{
+    background-color: limegreen;
+}
     
     .nav-link{
+    font-family: Walter Turncoat;
     color: white;
 }
+
     
  
     
@@ -40,10 +56,7 @@ h1{
 }  
 
 
-
     
-    
-
 contacto.html
 
     
@@ -101,13 +114,19 @@ h2{
     opacity: 1;
     filter: contrast(120%);
  }
+
  
  videos.html
 
  .ContainerVideos{
     display: flex;
+    flex-direction: row;
         
 }
+.video{
+    justify-content: space-around;
+}
+
 
 
 
