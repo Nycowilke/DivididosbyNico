@@ -1,3 +1,15 @@
+@font-face {
+    font-family: Permanent Marker;
+    src: url(../assets/fonts/PermanentMarker-Regular.ttf);
+}
+@font-face {
+    font-family: Satisfy;
+    src: url(../assets/fonts/Satisfy-Regular.ttf);
+}
+ @font-face {
+    font-family: Architects Daughter;
+    src: url(../assets/fonts/ArchitectsDaughter-Regular.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,32 +19,40 @@ body{
     background-color: limegreen;
 }
 
-index.html
+estilos index.html
+
 .container-fluid {
     background-color:limegreen;
-    height: 15vh;}
-    
-    .nav-link{
-    color: white;
+    height: 15vh;
+    position: sticky ;
 }
     
- 
+.nav-link{
+    color: white;
+    font-family: Caveant Brush;
+    margin-left: 90px;
+    font-size: 1.2rem;
+    }
+
+ button.navbar-toggler{
+    color: black;
+}
     
-main 
-.container{
+main .container{
     display: flex;
-    background-color: limegreen;
+    background-color: black;
 }  
 
 h1{
     font-family: Permanent Marker;
-    color: white;
+    color: black;
     margin-left: 160px;
 }
 
 .card{
     background-color: limegreen;
     color: white;
+    margin-top: 0;
 } 
 .IconosFooter{
     color:white;
@@ -40,13 +60,7 @@ h1{
 }  
 
 
-
-    
-    
-
-contacto.html
-
-    
+estilos contacto.html
 
 .formulario{
     margin-left: 30px;
@@ -71,24 +85,45 @@ contacto.html
     border: 2px solid black;
     color: white;
 }
- discos.html 
+ estilos discos.html 
 
 .disco{
-    display: flex;
+    display:flex ;
 }
 
-h2{
-    color: white;
-    margin-left: 35rem;
+.disco h2{
+    color: black;
+    font-family: Permanet Marker;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+ 
+ .linea{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    display: block;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    width: 95%;
+    margin: auto;
+    padding: 40px 0;
+    overflow: hidden;
+    row-gap: 10px;
     
- }
- .ImagenDiscos section {
-    display: flex;
-    margin-left: 17rem;
-    width: 800px;
-    height: 400px;
- }
- section img{
+}
+.galeria img{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    padding: 10px;
+
+}
+section img{
     width: 0px;
     flex-grow: 1;
     object-fit: cover;
@@ -102,11 +137,55 @@ h2{
     filter: contrast(120%);
  }
  
- videos.html
+ estilos videos.html
 
- .ContainerVideos{
+ .video{
     display: flex;
-        
+}
+
+.videos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    width: 95%;
+    margin: auto;
+    padding: 40px 0;
+    overflow: hidden;
+    row-gap: 10px;
+}
+.videos iframe{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    padding: 10px;
+}
+section iframe{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+estilos tour.html
+
+.containercards{
+    display: flex;
+}
+
+h2{
+    text-align: center;
+    color:black;
+}
+a.card-link{
+    font-family: Architects Daughter;
+    text-decoration: none;
+    font-size:  1.5rem;
+    color:white;
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-left: 3rem;
+    background-color: black;
+    
 }
 
 
