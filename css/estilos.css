@@ -9,66 +9,103 @@
  @font-face {
     font-family: Architects Daughter;
     src: url(../assets/fonts/ArchitectsDaughter-Regular.ttf);
+ }
+
+@font-face {
+    font-family: Lemonada Regular;
+    src: url(../assets/fonts/Lemonada-Regular.ttf);
 }
+@font-face {
+    font-family: Caveat Brush;
+    src: url(../assets/fonts//CaveatBrush-Regular.ttf)
+}
+@font-face {
+    font-family: Teko;
+    src: url(../assets/fonts//Teko-VariableFont_wght.ttf)
+}
+@font-face {
+    font-family: Sriracha;
+    src: url(../assets/fonts/Sriracha-Regular.ttf);
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
-    background-color: limegreen;
-}
-
-estilos index.html
-
-.container-fluid {
-    background-color:limegreen;
-    height: 15vh;
-    position: sticky ;
-}
-    
-.nav-link{
-    color: white;
-    font-family: Caveant Brush;
-    margin-left: 90px;
-    font-size: 1.2rem;
     }
 
- button.navbar-toggler{
-    color: black;
+body{
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
+
+
+
+/*estilos index.html*/
+
     
+
+ 
+.nav-link{
+    color: rgb(51, 46, 46);
+    font-family: Sriracha;
+    margin-left: 60px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    }
+
+    a.dropdown-item{
+    font-family: Sriracha;
+    
+    
+}    
+
 main .container{
     display: flex;
-    background-color: black;
-}  
+    }  
 
-h1{
+.titulo1{
     font-family: Permanent Marker;
     color: black;
-    margin-left: 160px;
+    text-align: center;
+    font-size: 2.5rem;
 }
 
 .card{
-    background-color: limegreen;
-    color: white;
+    color: rgb(51, 46, 46);
     margin-top: 0;
+    background-color: transparent;
 } 
+
+.card .text-center{
+    font-size: 1.2rem;
+}
 .IconosFooter{
-    color:white;
-    margin: 10px;
+    color:rgb(51, 46, 46);
+    margin: 15px;
+    }
+.fa-brands{
+    font-size: 1.5rem;
 }  
 
+.card-footer{
+    font-size: 0.8rem;
+}
 
-estilos contacto.html
+
+/*estilos contacto.html*/
 
 .formulario{
     margin-left: 30px;
 }
+legend{
+    font-family: Permanent Marker;
+    text-decoration: wavy;
+}
 .label{
-    color: white;
-    margin-top: 15px;  
-    margin-left: 250px;
+    color: black;
+    margin-top: 10px;  
+    margin-left: 450px;
 }
  .ImagenFormulario{
     width: 50%;
@@ -77,26 +114,31 @@ estilos contacto.html
     background-color: green;
     border-radius: 5px;
     border:2px solid black;
+    padding: 3px 5px;
     color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
 }
 .BotonLimpiar{
     background-color: black;
     border-radius: 5px;
     border: 2px solid black;
+    padding: 3px 5px;
     color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 40px;
 }
- estilos discos.html 
+ /*estilos discos.html*/ 
 
-.disco{
-    display:flex ;
-}
+
 
 .disco h2{
     color: black;
-    font-family: Permanet Marker;
+    font-family: Permanent Marker;
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 1.5rem;
 }
  
  .linea{
@@ -105,43 +147,47 @@ estilos contacto.html
     width: 100%;
     display: block;
 }
+
 .galeria{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     width: 95%;
     margin: auto;
     padding: 40px 0;
-    overflow: hidden;
     row-gap: 10px;
     
 }
 .galeria img{
-    width: 100%;
-    vertical-align: top;
+    width: 300px;
     height: 300px;
     object-fit: cover;
     padding: 10px;
+    box-shadow: 1px 5px 10px rgba(0,0,0 ,2);
+    border-radius: 5px;
 
 }
 section img{
-    width: 0px;
-    flex-grow: 1;
+    width: 100%;
     object-fit: cover;
-    opacity: .5;
     transition: .5s ease;
+    box-shadow: 0px 1px 10px,(o,o,o,2);
  }
  section img:hover{
-    cursor: crosshair;
+    cursor: pointer;
     width: 300px;
-    opacity: 1;
+    height: 300px;
+    box-shadow: 5px 10px 20px rgba(0,0,0 ,4);
+    transform:translateY(-5%) ;
     filter: contrast(120%);
  }
  
- estilos videos.html
+ /*estilos videos.html*/
 
- .video{
-    display: flex;
-}
+ .video h2{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+ }
 
 .videos{
     display: grid;
@@ -158,27 +204,70 @@ section img{
     height: 300px;
     object-fit: cover;
     padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px rgba(0,0,0 ,2);
 }
+
 section iframe{
     width: 0px;
     flex-grow: 1;
     object-fit: cover;
 }
+section iframe:hover{
+    box-shadow:5px 5px 20px,rgba(o,0,0,4);
+    transform:translateY(-3%) 
+}
 
-estilos tour.html
+
+/*estilos tour.html*/
 
 .containercards{
     display: flex;
+    justify-content: center;
+}
+.card2{
+    width: 100%;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 6px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0 ,2);
+    cursor: default;
+    transition: 400ms ease;
 }
 
-h2{
+.card2:hover{
+    box-shadow:5px 5px 20px,rgba(o,0,0,4);
+    transform:translateY(-3%)
+}
+h1{
     text-align: center;
     color:black;
+    font-family: Permanent Marker;
+    font-size: 1.5rem;
 }
+h2{
+    font-family: Caveat Brush;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    color: #1a8ca3;
+} 
+h3 {
+    font-size: 1.5rem;
+    font-family: Teko;
+
+} 
+.list-group-items-flush{
+    font-family: Caveat Brush;
+    font-size: 1rem;
+    
+}  
+
 a.card-link{
     font-family: Architects Daughter;
     text-decoration: none;
-    font-size:  1.5rem;
+    font-size:  1.2rem;
     color:white;
     border:2px solid black;
     border-radius: 5px;
@@ -188,7 +277,13 @@ a.card-link{
     
 }
 
+/* estilos fotos*/
 
+.fotos h1{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
 
 
 
