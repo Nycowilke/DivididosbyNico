@@ -39,13 +39,8 @@ body{
     background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
-
-
 /*estilos index.html*/
 
-    
-
- 
 .nav-link{
     color: rgb(51, 46, 46);
     font-family: Sriracha;
@@ -56,9 +51,7 @@ body{
 
     a.dropdown-item{
     font-family: Sriracha;
-    
-    
-}    
+    }    
 
 main .container{
     display: flex;
@@ -98,18 +91,22 @@ main .container{
 .formulario{
     margin-left: 30px;
 }
+
 legend{
     font-family: Permanent Marker;
     text-decoration: wavy;
 }
+
 .label{
     color: black;
     margin-top: 10px;  
     margin-left: 450px;
 }
- .ImagenFormulario{
+
+.ImagenFormulario{
     width: 50%;
 }
+
 .BotonEnviar{
     background-color: green;
     border-radius: 5px;
@@ -119,6 +116,7 @@ legend{
     cursor: pointer;
     margin-bottom: 20px;
 }
+
 .BotonLimpiar{
     background-color: black;
     border-radius: 5px;
@@ -129,9 +127,8 @@ legend{
     margin-bottom: 20px;
     margin-left: 40px;
 }
- /*estilos discos.html*/ 
 
-
+/*estilos discos.html*/ 
 
 .disco h2{
     color: black;
@@ -155,8 +152,8 @@ legend{
     margin: auto;
     padding: 40px 0;
     row-gap: 10px;
-    
-}
+    }
+
 .galeria img{
     width: 300px;
     height: 300px;
@@ -164,14 +161,15 @@ legend{
     padding: 10px;
     box-shadow: 1px 5px 10px rgba(0,0,0 ,2);
     border-radius: 5px;
-
 }
+
 section img{
     width: 100%;
     object-fit: cover;
     transition: .5s ease;
     box-shadow: 0px 1px 10px,(o,o,o,2);
  }
+ 
  section img:hover{
     cursor: pointer;
     width: 300px;
@@ -218,13 +216,13 @@ section iframe:hover{
     transform:translateY(-3%) 
 }
 
-
 /*estilos tour.html*/
 
 .containercards{
     display: flex;
     justify-content: center;
 }
+
 .card2{
     width: 100%;
     margin: 20px;
@@ -241,28 +239,30 @@ section iframe:hover{
     box-shadow:5px 5px 20px,rgba(o,0,0,4);
     transform:translateY(-3%)
 }
+
 h1{
     text-align: center;
     color:black;
     font-family: Permanent Marker;
     font-size: 1.5rem;
 }
+
 h2{
     font-family: Caveat Brush;
     text-decoration: underline;
     font-size: 1.5rem;
     color: #1a8ca3;
 } 
+
 h3 {
     font-size: 1.5rem;
     font-family: Teko;
-
 } 
+
 .list-group-items-flush{
     font-family: Caveat Brush;
     font-size: 1rem;
-    
-}  
+    }  
 
 a.card-link{
     font-family: Architects Daughter;
@@ -274,8 +274,7 @@ a.card-link{
     padding: 5px 15px;
     margin-left: 3rem;
     background-color: black;
-    
-}
+    }
 
 /* estilos fotos*/
 
@@ -284,18 +283,3 @@ a.card-link{
     text-decoration: none;
     color: black;
 }
-
-
-
-
-
-
-
-    
-     
-   
-
-
-
-
-
