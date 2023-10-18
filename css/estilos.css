@@ -175,7 +175,7 @@ section img{
     width: 300px;
     height: 300px;
     box-shadow: 5px 10px 20px rgba(0,0,0 ,4);
-    transform:translateY(-5%) ;
+    -ms-transform-origin-z: -40px;
     filter: contrast(120%);
  }
  
