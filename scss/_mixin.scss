@@ -1,0 +1,8 @@
+@mixin gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 95%;
+    margin: auto;
+    padding: 40px 0;
+    row-gap: 10px;
+  }

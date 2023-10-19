@@ -1,0 +1,27 @@
+.video h1{
+    text-align: center;
+    color: map-get($mapa-colores , color-negro );
+    text-decoration: none;
+ }
+
+.videos{
+    @include gallery ();
+    .videos iframe{
+        width: 100%;
+        vertical-align: top;
+        height: 300px;
+        object-fit: cover;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 1px 5px 10px rgba(0,0,0 ,2);
+        }
+        section iframe{
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            &:hover{
+                box-shadow:5px 5px 20px,rgba(0,0,0,4);
+                transform:translateY(-3%) 
+            }
+        }   
+    }   

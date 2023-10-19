@@ -1,0 +1,29 @@
+.formulario{
+    margin-left: 30px;
+    }
+    legend{
+        font-family: $font-principal;
+        text-decoration: wavy;
+    }
+    .label{
+        color: map-get($mapa-colores , color-negro );
+        margin-top: 10px;  
+        margin-left: 450px;
+    }
+    .BotonLimpiar{
+        background-color: black;
+        border-radius: 5px;
+        border: 2px solid black;
+        padding: 3px 5px;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+    .BotonEnviar{
+        @extend .BotonLimpiar;
+        background-color: green;
+        margin-left: 70px;
+    }
+        
+        

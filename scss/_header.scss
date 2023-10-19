@@ -1,0 +1,10 @@
+.nav-link{
+    color: map-get($mapa-colores, color-rgb );
+    font-family: $font-header;
+    margin-left: 60px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    }
+    a.dropdown-item{
+        font-family: $font-header;
+        } 

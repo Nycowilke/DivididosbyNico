@@ -1,0 +1,44 @@
+.disco h1{
+    color:map-get($mapa-colores, color-negro );
+    font-family: $font-principal;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    }
+    .linea{
+        background-color: map-get($mapa-colores, color-negro );
+        height: 2px;
+        width: 100%;
+        display: block;
+    }
+ 
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    width: 95%;
+    margin: auto;
+    padding: 40px 0;
+    row-gap: 10px;
+    }
+    .galeria img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        padding: 10px;
+        box-shadow: 1px 5px 10px rgba(0,0,0 ,2);
+        border-radius: 5px;
+    }
+    section img{
+        width: 100%;
+        object-fit: cover;
+        transition: .5s ease;
+        box-shadow: 0px 1px 10px,(0,0,0,2);
+        &:hover{
+            cursor: pointer;
+            width: 300px;
+            height: 300px;
+            box-shadow: 5px 10px 20px rgba(0,0,0 ,4);
+            transform: translateY(-5%);
+            filter: contrast(120%);
+         }
+    }

@@ -1,0 +1,9 @@
+main .container{
+    display: flex;
+    }
+    .titulo1{
+        font-family: $font-principal;
+        color: map-get($mapa-colores, color-negro );
+        text-align: center;
+        font-size: 2.5rem;
+    }  
