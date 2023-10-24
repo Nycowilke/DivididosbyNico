@@ -1,5 +1,8 @@
 main .container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     }
     .titulo1{
         font-family: $font-principal;
