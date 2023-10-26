@@ -9,7 +9,8 @@
     .videos iframe{
         width: 100%;
         vertical-align: top;
-        height: 300px;
+        place-items: center;
+        height: 250px;
         object-fit: cover;
         padding: 10px;
         border-radius: 5px;
@@ -21,7 +22,7 @@
             object-fit: cover;
             &:hover{
                 box-shadow:5px 5px 20px,rgba(0,0,0,4);
-                transform:translateY(-3%) 
+                transform:translateY(-5%) 
             }
         }   
     }   

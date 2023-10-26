@@ -1,6 +1,6 @@
 .containercards{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     }
     .card2{
         width: 100%;
@@ -8,13 +8,13 @@
         border: 1px solid black;
         border-radius: 6px;
         overflow: hidden;
+        align-items: center;
         background: white;
         box-shadow: 0px 1px 10px rgba(0,0,0 ,2);
         cursor: default;
         transition: 400ms ease;
         &:hover{
             box-shadow:5px 5px 20px,rgba(0,0,0,4);
-            transform:translateY(-3%)
         }
     }
 
