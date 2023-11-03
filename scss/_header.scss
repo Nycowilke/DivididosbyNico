@@ -1,3 +1,7 @@
+
+span .navbar-toggler-icon{
+    background: transparent;
+}
 .nav-link{
     color: map-get($mapa-colores, color-rgb );
     font-family: $font-header;

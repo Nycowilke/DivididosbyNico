@@ -7,7 +7,7 @@
 
 .videos{
     @include gallery ();
-    .videos iframe{
+    .videos  iframe{
         width: 100%;
         vertical-align: top;
         place-items: center;
@@ -17,13 +17,14 @@
         border-radius: 5px;
         box-shadow: 1px 5px 10px rgba(0,0,0 ,2);
         }
-        section iframe{
-            width: 0px;
-            flex-grow: 1;
-            object-fit: cover;
-            &:hover{
-                box-shadow:5px 5px 20px,rgba(0,0,0,4);
-                transform:translateY(-5%) 
+    section  iframe{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        &:hover{
+            box-shadow:5px 5px 20px,rgba(0,0,0,4);
+            transform:translateY(-5%) 
             }
         }   
-    }   
+    }
+    
